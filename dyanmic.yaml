@@ -1,8 +1,9 @@
 - name: dynamic yaml
   hosts: all
   become: yes
-  vars_files:
-    - credentials.yaml
+  vars:
+    - ansible_uaer: ec2-user
+    - ansible_password: DevOps321
   tasks:
   - name: install git
     ansible.builtin.dnf:
