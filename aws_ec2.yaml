@@ -8,7 +8,7 @@ keyed_groups:
   prefix: ''
   parent_group: ''
 
-filter:
+filters:
 tag:Name: "backend*"
 
 compose:
