@@ -5,6 +5,8 @@ region:
 
 keyed_groups:
 - key: tag['name']
+  prefix: ''
+  parent_group: ''
 
 filter:
 tag:name: "*backend*"
